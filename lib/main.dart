@@ -1,3 +1,4 @@
+import 'package:custom_bottom_navbar/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,7 +29,7 @@ class CustomBottomNavigationBar extends StatefulWidget {
 
 class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
   List<Widget> tabs = [
-    Center(child: Text("Home", style: TextStyle(color: Colors.white))),
+    HomePage(),
     Center(child: Text("Search", style: TextStyle(color: Colors.white))),
     Center(child: Text("Profile", style: TextStyle(color: Colors.white))),
     Center(child: Text("Notification", style: TextStyle(color: Colors.white))),
